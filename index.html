@@ -13,19 +13,25 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
+    <iframe id="download_iframe" style="display:none;"></iframe>
+    <a href="" download id="download" hidden></a>
     <div class="main">
         <div class="header">
-            <h1>nico's cat</h1>
-            <h1>website!</h1>
+            <h1>nico's cat website</h1>
         </div>
-
-        <div class="cat">
-            <img src="/cat/IMG_0459.jpeg" alt="cat">
-        </div>
-
-        <div class="cat">
-            <img src="/cat/IMG_0458.jpeg" alt="cat">
+        
+        <div class="catgenerator">
+            <button class="catGeneratorButton" id="catgenerator">
+                generate a cat meme
+            </button>
+            <img width=512, height=512, src="cats/cat69420.webp", id="catmeme">
+            <h1 id="catmemeid">Cat meme #69420</h1>
+            <button class="catDownloadButton" id="catdownload">
+                download cat meme
+            </button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

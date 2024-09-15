@@ -1,58 +1,18 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    align-items: flex-start;
-
-    margin-top: 20px;
-
-    font-family: "DM Sans", sans-serif;
-    background-color: #232323;
-    color: #fff;
+.catGeneratorButton {
+    background-color: #ffcc00; /* Bright yellow background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding for size */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block display */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 30px;
-}
-
-.header {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 0rem;
-
-    background-color: #232323;
-
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 20px;
-}
-
-.header h1 {
-    margin: 0;
-}
-
-.cat {
-    width: 100%;
-    max-width: 330px; /* Adjust this value to match the width of the div above */
-    margin-top: 1rem;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cat img {
-    width: 100%;
-    border-radius: 20px; /* Match the border-radius of the div above */
+.catGeneratorButton:hover {
+    background-color: #ff9900; /* Darker yellow on hover */
 }
