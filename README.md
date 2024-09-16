@@ -1,4 +1,3 @@
 # nicos-cat-website
 
-tousend hat hier gekotet
-fabi wabi war hier
+a website that shows a random image from a list of 700+ cat memes
