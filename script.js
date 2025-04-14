@@ -34,7 +34,7 @@ button.addEventListener('click', () => {
 });
 
 function downloadMeme() {
-    const catjpg = "/catjpg/cat" + crandomcat + ".jpg";
+    const catjpg = "/catjpg/cat" + crandomcat + ".jpeg";
     let link=document.getElementById('download');
     link.href=catjpg ;
     link.click();
