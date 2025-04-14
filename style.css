@@ -37,13 +37,16 @@ a {
 }
 
 .main {
-    margin: 40px;
+    padding-top: 20px;
+    margin: 20px;
 }
 
 .button {
     display: flex;
     align-items: center;
     gap: 5px;
+    width: 100%;
+    justify-content: center;
     padding: 20px;
     margin: 0 auto;
     transition: 0.3s;
@@ -62,12 +65,19 @@ a {
     padding: 10px;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .main img {
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 0 auto;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .footer {
@@ -77,6 +87,7 @@ a {
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 15px;
 }
 
 .footer a {
@@ -89,4 +100,9 @@ a {
     color: #bebebe;
     text-decoration: none;
     transition: 0.3s;
+}
+
+.footer_small {
+    font-size: 13px;
+    color: #bebebe;
 }
