@@ -40,6 +40,8 @@ a {
     padding-top: 20px;
     padding-bottom: 100px;
     margin: 20px;
+    padding-right: 15px;
+    padding-left: 0px;
 }
 
 .button {
@@ -83,12 +85,11 @@ a {
 
 .footer {
     background: #4d4848;
-    padding: 15px;
-    text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 15px;
+    text-align: center;
 }
 
 .footer a {
@@ -101,9 +102,4 @@ a {
     color: #bebebe;
     text-decoration: none;
     transition: 0.3s;
-}
-
-.footer_small {
-    font-size: 13px;
-    color: #bebebe;
 }
