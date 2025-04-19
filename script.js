@@ -2,7 +2,7 @@
 // image = catmeme
 // text = catmemeid
 
-const MAX_MEMES = 400;
+const MAX_MEMES = 1490; // Maximum number of cat memes
 
 let crandomcat = 0;
 
